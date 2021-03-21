@@ -1,0 +1,288 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    width: 99%;
+    height: 1000px;
+	position: static;
+    border: 0px solid black;
+    float: left;
+}
+.header{
+    width: 75%;
+    background-color:#C9FF78;
+    float: right;
+    
+ } 
+.header  h1{
+	color: #4000FF;
+	font-family: 'DotGothic16', sans-serif;
+    text-align: center;
+    
+}
+.headerl{
+    height: 22.85%;
+    width: 25%;
+    background-color: #A1BCBC;
+    float: left;
+    color :#4000FF; 
+    font-family: 'DotGothic16', sans-serif;
+    text-align: center;
+    float: center;
+    font-size: 30px;
+}
+.contentl{
+    width: 25%;
+	height: 95%;
+    background-color:#FF9378;
+    float: left;
+    
+ } 
+ .contentm{
+    width: 37.5%;
+    height: 80%;
+    background-color: #E4BC78;
+    color :#4000FF; 
+    font-family: 'DotGothic16', sans-serif;
+    text-align: LEFT;
+    float: left;
+    font-size: 30px;
+    padding: 0px 0px 0px 5px;
+ } 
+ .contentr{
+    width: 34.5%;
+	height: 70%;
+    background-color:#E4BC78;
+    float: left;
+    padding: 100px 50px 0px 0px 
+ } 
+
+ .footer{
+    width: 73.92%;
+	height: 15%;
+    background-color:#AF7AFF;
+    float: right;
+    color : #4000FF;
+    font-family: 'DotGothic16', sans-serif;
+    text-align:  right;
+    float: right;
+    font-size: 15px;
+    padding: 0px 20px 0px 0px ;
+ } 
+.banner{
+    width: 100%;
+    height: 30%;
+    background-color:black;
+    color:#4000FF;
+    float: left;
+    text-align:center ;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: #4000FF;
+    font-family: 'DotGothic16', sans-serif;
+    text-align: center;
+    padding: 14px 100px;
+    text-decoration: none;
+    font-size: 30px;
+}
+li a:hover {
+    background-color: #7ACAFF;
+}
+.button {
+    border: none;
+    color: #4000FF;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 80px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button1 {background-color: #b1f386; padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    cursor: pointer;
+ position: absolute;
+ top: 55%;
+ left: 50%;
+ -ms-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+}
+input[type = text]
+{
+    width: 97%;
+    color :#4000FF; 
+    font-family: 'DotGothic16', sans-serif;
+    text-align: LEFT;
+    font-size: 25px;
+    padding: 0px 15px 0px 15px;
+
+}
+input[type = number]
+{
+    width: 97%;
+    color :#4000FF; 
+    font-family: 'DotGothic16', sans-serif;
+    text-align: LEFT;
+    font-size: 25px;
+    padding: 0px 15px 0px 15px;
+}
+select
+{
+    width: 99.5%;
+    color :#706f74; 
+    font-family: 'DotGothic16', sans-serif;
+    text-align: LEFT;
+    font-size: 25px;
+    padding: 0px 15px 0px 15px;
+}
+ .Acontentm{
+    width: 74.73%;
+    height: 80%;
+    background-color: #E4BC78;
+    color :#4000FF; 
+    font-family: 'DotGothic16', sans-serif;
+    text-align: LEFT;
+    float: right;
+    font-size: 25px;
+    padding: 15px 0px 0px 5px;
+ }
+ input [id = fname]
+ {
+     height: 500px;
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    
+ } 
+  .CcontentmA
+  {
+    width: 21.3%;
+    height: 26.7%;
+    background-color: #E4BC78;
+    color :#4000FF; 
+    font-family: 'DotGothic16', sans-serif;
+    text-align: LEFT;
+    float: left;
+    font-size: 25px;
+    padding: 0px 15px 0px 15px;
+  }
+ 
+  .CcontentmB
+  {
+    width: 51.84%;
+    height: 26.7%;
+    background-color: #E4BC78;
+    color :#4000FF; 
+    font-family: 'DotGothic16', sans-serif;
+    text-align: left;
+    float: right;
+    font-size: 25px;
+    padding: 0px 0px 0px 5px;
+     
+  }
+
+  .CcontentmC
+  {
+    width: 21.3%;
+    height: 26.7%;
+    background-color: #E4BC78;
+    color :#4000FF; 
+    font-family: 'DotGothic16', sans-serif;
+    text-align: LEFT;
+    float: left;
+    font-size: 25px;
+    padding: 0px 15px 0px 15px; 
+  }
+  .CcontentrA
+  {
+    width: 51.84%;
+    height: 26.7%;
+    background-color: #E4BC78;
+    color :#4000FF; 
+    font-family: 'DotGothic16', sans-serif;
+    text-align: left;
+    float: right;
+    font-size: 25px;
+    padding: 0px 0px 0px 5px;
+  }
+  .CcontentrB
+  {
+    width: 51.84%;
+    height: 26.7%;
+    background-color: #E4BC78;
+    color :#4000FF; 
+    font-family: 'DotGothic16', sans-serif;
+    text-align: left;
+    float: right;
+    font-size: 25px;
+    padding: 0px 0px 0px 5px;
+  }
+  
+  .CcontentrC
+  {
+    width: 21.3%;
+    height: 26.7%;
+    background-color: #E4BC78;
+    color :#4000FF; 
+    font-family: 'DotGothic16', sans-serif;
+    text-align: LEFT;
+    float: left;
+    font-size: 25px;
+    padding: 0px 15px 0px 15px;
+  }
+  .TcontentrB
+  {
+    width: 73.4%;
+    height: 26.7%;
+    background-color: #E4BC78;
+    color :#4000FF; 
+    font-family: 'DotGothic16', sans-serif;
+    text-align: LEFT;
+    float: right;
+    font-size: 25px;
+    padding: 0px 15px 0px 15px;
+  }
+  .TcontentrA
+  {
+    width: 73.4%;
+    height: 26.7%;
+    background-color: #E4BC78;
+    color :#4000FF; 
+    font-family: 'DotGothic16', sans-serif;
+    text-align: LEFT;
+    float: right;
+    font-size: 25px;
+    padding: 0px 15px 0px 15px;
+  }
+  .TcontentmB
+  {
+    width: 73.4%;
+    height: 26.7%;
+    background-color: #E4BC78;
+    color :#4000FF; 
+    font-family: 'DotGothic16', sans-serif;
+    text-align: LEFT;
+    float: right;
+    font-size: 25px;
+    padding: 0px 15px 0px 15px;
+  }
